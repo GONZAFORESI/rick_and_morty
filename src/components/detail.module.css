@@ -1,0 +1,15 @@
+:root {
+    --color-primary: #c89d39;
+    --color-secondary: #eaac60;
+    --color-light: #eeead5;
+    --color-dark: #000000db;
+  }
+
+.detailStyle{
+    font-size: 2rem;
+    background: var(--color-primary);
+    width: 50%;
+    height: 50%;
+    scale: 75%;
+    color: var(--color-dark);
+}

@@ -1,0 +1,72 @@
+
+:root {
+    --color-primary: #25c908;
+    --color-secondary: #56b24c;
+    --color-light: #ebf4f0;
+    --color-dark: #0a0a0a;
+  }
+
+  .h1Style {
+    font-family: Georgia, serif;
+    color: var(--color-light);
+    margin-left: 3rem;
+    font-size: 5rem;
+    font-style: normal;
+    text-shadow: 0 0 5px var(--color-light);
+    animation: fadeInAnimation 2s forwards;
+    text-align: center;
+
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .h3Style {
+    font-family: Georgia, serif;
+    color: var(--color-primary);
+    margin-left: 3rem;
+    font-size: 4rem;
+    font-style: normal;
+    text-shadow: 0 0 5px var(--color-light);
+    animation: fadeInAnimation 2s forwards;
+    text-align: center;
+
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .newH3Style {
+    font-family: Georgia, serif;
+    color: var(--color-dark);
+    margin-left: 3rem;
+    font-size: 5rem;
+    font-style: normal;
+    text-shadow: 0 0 5px var(--color-light);
+    animation: fadeInAnimation 2s forwards;
+    text-align: center;
+
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  

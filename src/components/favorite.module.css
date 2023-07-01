@@ -1,0 +1,52 @@
+:root {
+  --color-primary: #c89d39;
+  --color-secondary: #eaac60;
+  --color-light: #eeead5;
+  --color-dark: #000000db;
+}
+
+.h1 {
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  background: var(--color-light);
+  color: var(--color-dark);
+  flex: 0 0 18%;
+  Width: auto;
+  height: auto;
+  padding: 8px;
+  margin: 15px;
+}
+
+.favoriteCardItem {
+  font-size: 1rem;
+  font-family: Georgia, serif;
+  background: var(--color-dark);
+  color: var(--color-dark);
+  flex: 0 0 10%;
+  width: 29%;
+  scale: 100%;
+  padding-top: 1rem;
+  margin-top: 5rem;
+  margin-left: 55rem;
+  justify-content: center;
+
+}
+
+.orderFilter {
+  background: var(--color-dark);
+  color: var(--color-primary);
+  margin-left: 13rem;
+  border-radius: 0.5rem;
+  border: solid;
+  border-width: thin;
+}
+
+.filter {
+  background: var(--color-dark);
+  color: var(--color-primary);
+  margin-top: auto;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  border:solid;
+  border-width: thin;
+}

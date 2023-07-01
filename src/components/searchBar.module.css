@@ -1,0 +1,24 @@
+:root {
+    --color-primary: #c89d39;
+    --color-secondary: #eaac60;
+    --color-light: #eeead5;
+    --color-dark: #000000db;
+  }
+
+.buttom {
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: solid;
+    background-color:var(--color-secondary);
+    width: 15%;
+    padding: 0 1rem;
+}
+
+.input {
+    height: 4rem;
+	border: solid;
+	border-radius: 0.5rem;
+	padding: 0 1rem;
+	outline: var(--color-primary);
+	width: 75%;
+}

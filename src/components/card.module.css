@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+  html {
+	font-size: 62.5%;
+}
+  :root {
+  --color-primary: #39f836;
+  --color-secondary: #c2e7a0;
+  --color-light: #bbdea1;
+  --color-dark: #0a0909;
+}
+
+
+  body {
+    font-size: 0.1rem;
+    font-family: Georgia, serif;
+    background: var(--color-dark);
+    color: var(--color-light);
+    scale: 1;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 120rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+  .styleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+    margin: 0.5rem;
+  }
+
+  .cardItem {
+    display: inline-block;
+    flex: 0 0 18%;
+    Width: 100px;
+    height: auto;
+    padding: 8px;
+    margin: 15px;
+  }
+  
+  .logo {
+    width: 28rem;
+    margin: 4rem auto;
+  }
+  .logoImg {
+    width: 100%;
+  }
+
+  .characterList {
+    width: 100%;
+    display: grid;
+    grid-template: auto / 1fr;
+    gap: 4rem;
+  }
+  
+  .character{
+    background: var(--color-secondary);
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template: 10rem auto / 1fr;
+    overflow: hidden;
+    margin: 0.5rem;
+    margin-top: -1.8rem;
+  }
+
+  .characterHeader {
+    background: var(--color-primary);
+    padding: 3rem;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+  .characterName {
+    padding: 8rem 2rem 4rem;
+    position: relative;
+    font-size: 2.5rem;
+  }
+
+  .styleButton {
+    position: relative;
+    left: 27.5rem;
+    top: -44rem;
+    background-color: rgba(123, 248, 56, 0.957);
+    border-radius: 20%;
+}
+  
+  .aboutButton {
+    height: 4rem;
+    position: absolute;
+    right: 10rem;
+    top: 115px;
+    background-color: var(--color-secondary) ;
+    border-radius: 0.5rem;
+    border: solid;
+    width:5%;
+    padding: 0.1rem;
+    color: var(--color-secondary);
+    border-width: thin;
+    border-color: aliceblue;
+  }
+
+  .homeButton {
+    height: 4rem;
+    position: absolute;
+    right: 19rem;
+    top: 115px;
+    background-color: var(--color-secondary) ;
+    border-radius: 0.5rem;
+    border: solid;
+    width:5%;
+    padding: 0.1rem;
+    color: var(--color-dark);
+    border-width: thin;
+    border-color: aliceblue;
+  }
+
+  .favoriteButton {
+    height: 4rem;
+    position: absolute;
+    right: 1rem;
+    top: 115px;
+    background-color: var(--color-secondary) ;
+    border-radius: 0.5rem;
+    border: solid;
+    width:5%;
+    padding: 0.1rem;
+    color: var(--color-dark);
+    border-width: thin;
+    border-color: aliceblue;
+
+  }
+
+  .status {
+    background: var(--color-secondary);
+    display: inline-flex;
+    color: var(--color-light);
+    padding: 0.5rem 2rem;
+    border-radius: 2.5rem;
+    font-size: 1.2rem;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: -0.5rem;
+  }
+
+  .speciesAndGender {
+    font-size: 1.8rem;
+    margin-left: 1.7rem;
+    margin-top: -2.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .origin {
+    background: var(--color-primary);
+    padding: 2rem;
+    height: 5rem;
+    text-align: right;
+    display:flex;
+    width: 150%;
+    align-items: center;
+    margin-right: 5rem;
+    margin-left: -0.1rem;
+    font-size: 1.8rem;
+  }
+
+  .status.span {
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+  }
+  .Alive {
+    background: #31a703;
+  }
+  .Dead {
+    background: #d34b4b;
+  }
+  .unknown {
+    background: #afafaf;
+  }
+  .personaje-body figure {
+	position: absolute;
+	display: block;
+	width: 12rem;
+	height: 12rem;
+	border-radius: 50%;
+	top: -6rem;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0 0 1rem 0 var(--color-light);
+	overflow: hidden;
+}
+
+  .rickImgStyle {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    width: 25%;
+    height: 50%;
+    margin: 0;
+    z-index: -1;
+
+  }
+
+  .mortyImgStyle {
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    width: 20%;
+    height: 55%;
+    margin: 0;
+  }
+
+.personajeBodyFigureImg {
+	height: 22rem;
+	width: 31rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.personaje-body h2 {
+	width: 100%;
+	background: var(--color-primary);
+	color: var(--color-dark);
+	border-radius: 0.5rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	transition-property: background, color;
+	font-size: 1.8rem;
+}
+.personaje-body p {
+	width: 100%;
+	background: rgba(219, 246, 233, 0.9);
+	color: var(--color-dark);
+	border-radius: 0.5rem;
+	height: 4rem;
+	margin-top: 2rem;
+	line-height: 4rem;
+	text-align: center;
+}
+.personaje-body p span {
+	font-weight: bold;
+}
+
+.styleFavoriteButton {
+  position: relative;
+  left: 1.5rem;
+  top: -51rem;
+}

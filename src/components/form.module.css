@@ -1,0 +1,54 @@
+:root {
+  --color-primary: #c89d39;
+  --color-secondary: #eaac60;
+  --color-light: #eeead5;
+  --color-dark: #000000db;
+}
+
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  height: 800px;
+  margin: 3rem;
+  margin-left: 15rem;
+  padding: 20px;
+  color: var(--color-light);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('C:\Users\GONZA\Curso\CURSO DE PROGRAMACIÓN\rick_and_morty\src\img\Rick-And-Morty-Transparent-Background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.emailStyle {
+    margin-top: 25rem;
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(81, 233, 10, 0.969);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.inputStyle {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.formButton {
+    height: 2.5rem;
+    position: absolute;
+    margin-top: 7rem;
+    margin-left: 0rem;
+    background-color: rgb(118, 243, 9);
+    border-radius: 0.5rem;
+    border: none;
+    width:5%;
+    padding: 0.1rem;
+    color: var(--color-dark) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
